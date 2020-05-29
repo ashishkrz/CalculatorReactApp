@@ -1,0 +1,22 @@
+.Cell {
+    height: 5rem;
+    width: 5rem;
+    background-color: gray;
+    margin: 0.1rem;
+    font-size: 2.2rem;
+    line-height: 5rem;
+    text-align: center;
+    align-items: center;
+    opacity: 0.6;
+    transition: 0.3s all;
+    color: white;
+}
+
+.Cell:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.Operator {
+    background-color: orange;
+}
